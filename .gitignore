@@ -1,0 +1,23 @@
+# Raw data files
+data/raw/*.csv
+data/raw/*.zip
+
+# Processed datasets can be uploaded if small and useful
+# data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
