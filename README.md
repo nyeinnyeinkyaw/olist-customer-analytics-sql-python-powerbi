@@ -196,6 +196,9 @@ olist-customer-analytics/
 ## Author
 
 **Nyein Nyein Kyaw**
+
 Digital Technology for Business Innovation Student
+
 Mae Fah Luang University
+
 Interest Areas: Data Analytics, Business Analytics, Marketing Analytics, CRM, and AI-driven Research
