@@ -127,7 +127,7 @@ The Power BI dashboard includes three pages:
 
 ### Delivery & Satisfaction Analysis
 
-![Delivery Satisfaction](images/delivery_satisfaction.png)
+![Delivery Satisfaction](images/delivery_satisficaction.png)
 
 ---
 
