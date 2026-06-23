@@ -1,7 +1,7 @@
 -- 00_create_tables_sqlite.sql
--- SQLite table schema for the Olist E-Commerce Customer Analytics project.
--- You can import the CSV files into these tables using DB Browser for SQLite,
--- SQLiteStudio, or Python pandas.to_sql().
+-- SQLite table schema aligned with the Python Colab notebook.
+-- In the notebook, these tables are also created automatically using pandas.to_sql().
+-- This file is included to show the database structure clearly.
 
 DROP TABLE IF EXISTS customers;
 CREATE TABLE customers (
@@ -35,8 +35,8 @@ CREATE TABLE order_items (
     freight_value REAL
 );
 
-DROP TABLE IF EXISTS order_payments;
-CREATE TABLE order_payments (
+DROP TABLE IF EXISTS payments;
+CREATE TABLE payments (
     order_id TEXT,
     payment_sequential INTEGER,
     payment_type TEXT,
@@ -44,8 +44,8 @@ CREATE TABLE order_payments (
     payment_value REAL
 );
 
-DROP TABLE IF EXISTS order_reviews;
-CREATE TABLE order_reviews (
+DROP TABLE IF EXISTS reviews;
+CREATE TABLE reviews (
     review_id TEXT,
     order_id TEXT,
     review_score INTEGER,
@@ -68,8 +68,8 @@ CREATE TABLE products (
     product_width_cm REAL
 );
 
-DROP TABLE IF EXISTS product_category_translation;
-CREATE TABLE product_category_translation (
+DROP TABLE IF EXISTS category_translation;
+CREATE TABLE category_translation (
     product_category_name TEXT PRIMARY KEY,
     product_category_name_english TEXT
 );
